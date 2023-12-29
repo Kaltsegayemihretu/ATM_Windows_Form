@@ -52,5 +52,13 @@ namespace ATM_Final
 
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DepositWindow depositWindow = new DepositWindow();
+            depositWindow.Show();
+
+            this.Hide();
+        }
     }
 }
