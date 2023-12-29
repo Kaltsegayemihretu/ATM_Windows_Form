@@ -53,6 +53,7 @@
             this.button1.Size = new System.Drawing.Size(61, 59);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -77,6 +78,7 @@
             this.button4.Size = new System.Drawing.Size(61, 59);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -117,7 +119,7 @@
             this.label1.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(180, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(281, 48);
+            this.label1.Size = new System.Drawing.Size(276, 46);
             this.label1.TabIndex = 8;
             this.label1.Text = "WITHDRAWAL";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -128,7 +130,7 @@
             this.label2.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(180, 231);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(232, 48);
+            this.label2.Size = new System.Drawing.Size(227, 46);
             this.label2.TabIndex = 9;
             this.label2.Text = "FAST CASH";
             // 
@@ -138,7 +140,7 @@
             this.label3.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(180, 460);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(258, 48);
+            this.label3.Size = new System.Drawing.Size(252, 46);
             this.label3.TabIndex = 10;
             this.label3.Text = "CHANGE PIN";
             // 
@@ -148,7 +150,7 @@
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(180, 345);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(224, 48);
+            this.label4.Size = new System.Drawing.Size(219, 46);
             this.label4.TabIndex = 11;
             this.label4.Text = "TRANSFER";
             // 
@@ -158,7 +160,7 @@
             this.label5.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(803, 110);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(212, 48);
+            this.label5.Size = new System.Drawing.Size(206, 46);
             this.label5.TabIndex = 12;
             this.label5.Text = "DEPOSITE";
             // 
@@ -168,7 +170,7 @@
             this.label6.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(816, 231);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(199, 48);
+            this.label6.Size = new System.Drawing.Size(196, 46);
             this.label6.TabIndex = 13;
             this.label6.Text = "BALANCE";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -179,7 +181,7 @@
             this.label7.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(794, 345);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(221, 48);
+            this.label7.Size = new System.Drawing.Size(216, 46);
             this.label7.TabIndex = 14;
             this.label7.Text = "RECENTLY";
             // 
@@ -189,7 +191,7 @@
             this.label8.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(841, 460);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(174, 48);
+            this.label8.Size = new System.Drawing.Size(171, 46);
             this.label8.TabIndex = 15;
             this.label8.Text = "CANCEL";
             this.label8.Click += new System.EventHandler(this.label8_Click);

@@ -36,5 +36,21 @@ namespace ATM_Final
         {
            this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WithdrawalWindow withdrawalWindow = new WithdrawalWindow();
+            withdrawalWindow.Show();
+
+            this.Hide();  
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            TransferWindow transferWindow = new TransferWindow();
+            transferWindow.Show();
+
+            this.Hide();
+        }
     }
 }
